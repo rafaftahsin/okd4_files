@@ -11,7 +11,7 @@ compute:
 controlPlane:
   hyperthreading: Enabled
   name: master
-  replicas: 3
+  replicas: 1
 
 networking:
   clusterNetwork:
@@ -27,4 +27,4 @@ platform:
 fips: false
 
 pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
-sshKey: 'ssh-ed25519 AAAA...'   
+sshKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsFSf+kQj8UyU4itU+lTwnMs6+rclsZysdh3AClq2QtycODGpc/19RjB68Bz1thH2XUFPO0+tqg/kgy4VqQ8f53r6vhtIbq1kIfyvV52Zht+EOA5A26s2O7L2C+qe61mYFBJyRFuembFQ8xW1mLe9Uo3nftXtD0IZdlb2Adr+wy/ML0hWJZ2gfKuRNs+/fI+0IBciFiojlrRT9NZon/PQ0qupDev0CQJP/ql9eU5PGGtO4pIOXVyhtxQHidl6u7lTbZWVY0mFhr4Y7BUHuHYYaGyM1Y9mJx0k1g+xGhJC8rUZJBnD3md7UBppZgN1uJRiW7syKdn7/Zf6bFWI41GbJ rafa@DHARAFAWIN10'   
